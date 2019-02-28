@@ -12,3 +12,55 @@ html{
     font-weight: 300;
     text-rendering: optimizeLegibility
 }
+
+/* defining row class, this is the only value with pixels */
+.row{
+    max-width: 1140px;
+    /* this container will inside another container,to center 
+    rmargin and lmargin to auto */
+    margin: 0 auto 0 auto ;
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.719),rgba(0, 0, 0, 0.719)), url(images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+h1{
+    margin: 0;
+    font-size: 180%;
+    color: white;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+
+.hero_text_box{
+    position:absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-90%,-60%)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
